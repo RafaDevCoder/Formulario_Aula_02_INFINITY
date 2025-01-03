@@ -64,7 +64,7 @@ label {
   border: none;
   color: rgb(121, 118, 118);
   padding: 5px;
-  opacity: 0.9; /* Ajusta a transparência (0.0 a 1.0) */
+  opacity: 0.5; /* Ajusta a transparência (0.0 a 1.0) */
 }
 
 .btn {
@@ -85,6 +85,7 @@ input::placeholder {
 @media screen and (max-whidth: 1330px) {
   .section {
     width: 50%;
+    height: auto;
   }
 
   .form {
@@ -97,3 +98,8 @@ input::placeholder {
   }
 }
 
+@media screen and (max-whidth: 230px) {
+  h1 {
+    font-size: 16px;
+  }
+}
